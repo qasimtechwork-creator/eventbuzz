@@ -1,1 +1,1 @@
-eventbuzz.example.com placeholder canonicals — replace after domain
+eventbuzz-sigma.vercel.app placeholder canonicals — replace after domain

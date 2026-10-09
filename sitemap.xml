@@ -1,102 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
   EventBuzz sitemap
-  PLACEHOLDER BASE: https://eventbuzz.example.com/ — replace with the final domain before submitting to search engines.
+  PLACEHOLDER BASE: https://eventbuzz-sigma.vercel.app/ — replace with the final domain before submitting to search engines.
   Last updated: 2026-10-09
 -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://eventbuzz.example.com/</loc>
+    <loc>https://eventbuzz-sigma.vercel.app/</loc>
     <lastmod>2026-10-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://eventbuzz.example.com/about.html</loc>
+    <loc>https://eventbuzz-sigma.vercel.app/about.html</loc>
     <lastmod>2026-10-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://eventbuzz.example.com/contact.html</loc>
+    <loc>https://eventbuzz-sigma.vercel.app/contact.html</loc>
     <lastmod>2026-10-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://eventbuzz.example.com/privacy-policy.html</loc>
+    <loc>https://eventbuzz-sigma.vercel.app/privacy-policy.html</loc>
     <lastmod>2026-10-09</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://eventbuzz.example.com/terms.html</loc>
+    <loc>https://eventbuzz-sigma.vercel.app/terms.html</loc>
     <lastmod>2026-10-09</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://eventbuzz.example.com/categories/festivals.html</loc>
+    <loc>https://eventbuzz-sigma.vercel.app/categories/festivals.html</loc>
     <lastmod>2026-10-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://eventbuzz.example.com/categories/holidays.html</loc>
+    <loc>https://eventbuzz-sigma.vercel.app/categories/holidays.html</loc>
     <lastmod>2026-10-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://eventbuzz.example.com/categories/sports.html</loc>
+    <loc>https://eventbuzz-sigma.vercel.app/categories/sports.html</loc>
     <lastmod>2026-10-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://eventbuzz.example.com/categories/shopping-events.html</loc>
+    <loc>https://eventbuzz-sigma.vercel.app/categories/shopping-events.html</loc>
     <lastmod>2026-10-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://eventbuzz.example.com/categories/national-days.html</loc>
+    <loc>https://eventbuzz-sigma.vercel.app/categories/national-days.html</loc>
     <lastmod>2026-10-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://eventbuzz.example.com/categories/seasonal-events.html</loc>
+    <loc>https://eventbuzz-sigma.vercel.app/categories/seasonal-events.html</loc>
     <lastmod>2026-10-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://eventbuzz.example.com/articles/halloween-2026-date-history-significance.html</loc>
+    <loc>https://eventbuzz-sigma.vercel.app/articles/halloween-2026-date-history-significance.html</loc>
     <lastmod>2026-10-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://eventbuzz.example.com/articles/halloween-wishes-messages-quotes-2026.html</loc>
+    <loc>https://eventbuzz-sigma.vercel.app/articles/halloween-wishes-messages-quotes-2026.html</loc>
     <lastmod>2026-10-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://eventbuzz.example.com/articles/halloween-costume-ideas-2026.html</loc>
+    <loc>https://eventbuzz-sigma.vercel.app/articles/halloween-costume-ideas-2026.html</loc>
     <lastmod>2026-10-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://eventbuzz.example.com/articles/halloween-party-ideas-games-2026.html</loc>
+    <loc>https://eventbuzz-sigma.vercel.app/articles/halloween-party-ideas-games-2026.html</loc>
     <lastmod>2026-10-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://eventbuzz.example.com/articles/halloween-recipes-treat-ideas-2026.html</loc>
+    <loc>https://eventbuzz-sigma.vercel.app/articles/halloween-recipes-treat-ideas-2026.html</loc>
     <lastmod>2026-10-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
