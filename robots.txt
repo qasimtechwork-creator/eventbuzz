@@ -1,0 +1,6 @@
+# EventBuzz robots.txt
+# PLACEHOLDER BASE: replace eventbuzz.example.com with the final domain before launch.
+User-agent: *
+Allow: /
+
+Sitemap: https://eventbuzz.example.com/sitemap.xml
