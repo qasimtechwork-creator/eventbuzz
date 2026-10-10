@@ -2,12 +2,12 @@
 <!--
   EventBuzz sitemap
   PLACEHOLDER BASE: https://eventbuzz-sigma.vercel.app/ — replace with the final domain before submitting to search engines.
-  Last updated: 2026-10-09
+  Last updated: 2026-10-10
 -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://eventbuzz-sigma.vercel.app/</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -37,7 +37,7 @@
   </url>
   <url>
     <loc>https://eventbuzz-sigma.vercel.app/categories/festivals.html</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -220,5 +220,53 @@
     <lastmod>2026-10-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://eventbuzz-sigma.vercel.app/articles/halloween-2026-images.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://eventbuzz-sigma.vercel.app/articles/halloween-wishes-for-friends-2026.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://eventbuzz-sigma.vercel.app/articles/funny-halloween-wishes-2026.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://eventbuzz-sigma.vercel.app/articles/halloween-costume-ideas-for-men-2026.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://eventbuzz-sigma.vercel.app/articles/kids-halloween-costume-ideas-2026.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://eventbuzz-sigma.vercel.app/articles/halloween-party-ideas-for-kids-2026.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://eventbuzz-sigma.vercel.app/articles/trick-or-treat-safety-tips-2026.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://eventbuzz-sigma.vercel.app/articles/happy-halloween-messages-2026.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 </urlset>
