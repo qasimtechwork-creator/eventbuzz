@@ -321,6 +321,55 @@ html[data-theme] .page-hero{border-top:2px solid var(--theme-accent-soft);border
   letter-spacing:.02em;padding:9px 15px;border-radius:999px;
   box-shadow:0 10px 26px rgba(0,0,0,.5)}
 
+/* Professional CSS-crafted event art — used when no photo exists yet (e.g. Independence Day).
+   Official-style flag SVG + event typography in theme colors; animated shine sweep. */
+.theme-banner.theme-art{display:flex;align-items:center;justify-content:center;gap:26px;
+  aspect-ratio:auto;min-height:210px;padding:34px 28px;text-align:center;
+  background:
+    radial-gradient(120% 160% at 50% 0%,var(--theme-glow) 0%,transparent 55%),
+    linear-gradient(115deg,#04140b 0%,#01411C 42%,#0a9b4d 78%,#01411C 100%);
+  border:1px solid var(--theme-accent-soft);
+  box-shadow:0 24px 70px rgba(0,0,0,.55),0 0 60px var(--theme-glow),inset 0 0 90px rgba(0,0,0,.45)}
+.theme-art{position:relative;overflow:hidden}
+.theme-art-flag{width:min(300px,42%);filter:drop-shadow(0 14px 30px rgba(0,0,0,.6));
+  border-radius:10px;overflow:hidden;border:1px solid rgba(255,255,255,.25);
+  animation:themeFlagWave 7s ease-in-out infinite;transform-origin:50% 50%}
+.theme-art-flag svg{display:block;width:100%;height:auto}
+@keyframes themeFlagWave{
+  0%,100%{transform:perspective(700px) rotateY(-7deg) scale(1)}
+  50%{transform:perspective(700px) rotateY(7deg) scale(1.025)}
+}
+.theme-art-text{display:flex;flex-direction:column;gap:10px;align-items:flex-start;text-align:left}
+.theme-banner.theme-art .theme-art-text{align-items:center;text-align:center}
+.theme-art-kicker{font-size:.82rem;font-weight:800;letter-spacing:.32em;text-transform:uppercase;
+  color:#f5d47a;text-shadow:0 2px 12px rgba(0,0,0,.6)}
+.theme-art-title{font-size:clamp(2rem,5.4vw,3.6rem);font-weight:900;letter-spacing:.06em;color:#fff;
+  text-shadow:0 3px 0 rgba(0,0,0,.35),0 0 34px var(--theme-glow);line-height:1.05}
+.theme-art-emoji{font-size:clamp(3rem,8vw,5rem);line-height:1;filter:drop-shadow(0 10px 24px rgba(0,0,0,.55))}
+.theme-art-shine{position:absolute;inset:-40%;pointer-events:none;z-index:1;
+  background:linear-gradient(105deg,transparent 42%,rgba(255,255,255,.16) 50%,transparent 58%);
+  animation:themeShine 6.5s ease-in-out infinite}
+@keyframes themeShine{
+  0%{transform:translateX(-55%)}
+  55%,100%{transform:translateX(55%)}
+}
+.theme-art .theme-art-flag,.theme-art .theme-art-text{position:relative;z-index:2}
+/* Homepage hero card variant */
+.theme-art-hero{border-radius:16px;min-height:300px;display:flex;align-items:center;justify-content:center;
+  gap:22px;padding:30px 24px;text-align:center;
+  background:
+    radial-gradient(120% 160% at 50% 0%,var(--theme-glow) 0%,transparent 55%),
+    linear-gradient(115deg,#04140b 0%,#01411C 42%,#0a9b4d 78%,#01411C 100%)}
+.theme-art-hero .theme-art-text{align-items:center;text-align:center}
+@media(max-width:640px){
+  .theme-banner.theme-art{flex-direction:column;gap:16px;min-height:0;padding:26px 18px}
+  .theme-art-flag{width:min(230px,64%)}
+  .theme-art-text{align-items:center;text-align:center}
+}
+@media (prefers-reduced-motion:reduce){
+  .theme-art-flag,.theme-art-shine{animation:none!important}
+}
+
 /* Auto-matching country flag (National Days page) — inline SVG, official style */
 .theme-flag{display:inline-block;width:40px;vertical-align:-7px;margin-left:8px;
   border-radius:5px;overflow:hidden;box-shadow:0 3px 12px rgba(0,0,0,.55);

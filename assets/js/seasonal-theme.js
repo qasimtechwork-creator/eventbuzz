@@ -274,8 +274,9 @@
     },
     independenceDay: {
       accent: "#0a9b4d", accentSoft: "rgba(10,155,77,.40)", glow: "rgba(10,155,77,.18)",
-      image: null, // no suitable existing image — colors + decoration still apply
-      alt: "",
+      image: null, // no photo yet — professional CSS flag art renders instead (until Qasim designs the image)
+      flagArt: "PK", artTitle: "14 AUGUST",
+      alt: "Pakistan Independence Day — 14 August",
       chip: { emoji: "🇵🇰", text: "National Days", href: "categories/national-days.html" },
       featured: { title: "Independence Day", tag: "🇵🇰 14 August", headline: "Independence Day — 14 August",
         desc: "Independence in 1947 — flag-hoisting, anthems, wishes, speeches and respectful celebration ideas. Full guides publish as the date approaches.",
@@ -369,6 +370,16 @@
   var reduced = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   var now = new Date();
   var pick = pickEvent(now);
+  /* Preview override: ?theme=<eventKey> (e.g. ?theme=independenceDay) forces one event's
+     full presentation for review — handy before the event is actually near */
+  try {
+    var q = new URLSearchParams(location.search).get("theme");
+    if (q) {
+      var found = null;
+      EVENTS.forEach(function (e) { if (e.key === q) found = e; });
+      if (found) pick = { key: found.key, ev: found, date: found.date(now.getFullYear()) };
+    }
+  } catch (e) {}
   var root = document.documentElement;
   var path = location.pathname.toLowerCase();
   var pageKey = "index";
@@ -395,6 +406,24 @@
       if (heroImg) { heroImg.src = IMG + theme.image; heroImg.alt = theme.alt; }
       var cap = document.querySelector(".hero-card-main figcaption");
       if (cap) cap.textContent = ev.emoji + " " + ev.label + " " + d.getFullYear() + " · " + dateLong;
+    } else if (theme.flagArt) {
+      /* No photo yet: render the professional CSS flag art inside the homepage hero card */
+      var heroFig = document.querySelector(".hero-card-main");
+      if (heroFig && !heroFig.querySelector(".theme-art")) {
+        var heroImgEl = heroFig.querySelector("img");
+        if (heroImgEl) heroImgEl.style.display = "none";
+        var artFig = document.createElement("div");
+        artFig.className = "theme-art theme-art-hero";
+        artFig.setAttribute("role", "img");
+        artFig.setAttribute("aria-label", theme.alt || ev.label);
+        artFig.innerHTML = '<div class="theme-art-shine" aria-hidden="true"></div>' +
+          '<div class="theme-art-flag">' + flagSVG(theme.flagArt) + "</div>" +
+          '<div class="theme-art-text"><span class="theme-art-kicker">' + esc(ev.label) + '</span>' +
+          '<span class="theme-art-title">' + esc(theme.artTitle || dateShort) + "</span></div>";
+        heroFig.insertBefore(artFig, heroFig.firstChild);
+      }
+      var cap2 = document.querySelector(".hero-card-main figcaption");
+      if (cap2) cap2.textContent = ev.emoji + " " + ev.label + " " + d.getFullYear() + " · " + dateLong;
     }
     var hcb = document.querySelector(".hero-count-badge .hcb-label");
     if (hcb) hcb.textContent = ev.label + " in";
@@ -441,6 +470,24 @@
       fig.innerHTML = '<img src="' + IMG + bannerImg + '" alt="' + esc(theme.alt || (ev.label + " celebration")) + '" loading="lazy" decoding="async">' +
         '<figcaption><span class="theme-chip">' + ev.emoji + " " + esc(ev.label) + " · " + esc(dateShort) + "</span></figcaption>";
       pageHero.insertBefore(fig, pageHero.firstChild);
+    } else {
+      /* Professional CSS-crafted banner when no photo exists yet (e.g. Independence Day):
+         official-style flag art + event typography in the theme colors — never AI imagery */
+      var figA = document.createElement("figure");
+      figA.className = "theme-banner theme-art";
+      var artInner;
+      if (theme.flagArt) {
+        artInner = '<div class="theme-art-flag" role="img" aria-label="' + esc(COUNTRIES[theme.flagArt] || "") + ' flag">' + flagSVG(theme.flagArt) + "</div>" +
+          '<div class="theme-art-text"><span class="theme-art-kicker">' + esc(ev.label) + '</span>' +
+          '<span class="theme-art-title">' + esc(theme.artTitle || dateShort) + "</span></div>";
+      } else {
+        artInner = '<div class="theme-art-emoji" aria-hidden="true">' + ev.emoji + "</div>" +
+          '<div class="theme-art-text"><span class="theme-art-kicker">' + esc(ev.label) + '</span>' +
+          '<span class="theme-art-title">' + esc(dateShort) + "</span></div>";
+      }
+      figA.innerHTML = '<div class="theme-art-shine" aria-hidden="true"></div>' + artInner +
+        '<figcaption><span class="theme-chip">' + ev.emoji + " " + esc(ev.label) + " · " + esc(dateShort) + "</span></figcaption>";
+      pageHero.insertBefore(figA, pageHero.firstChild);
     }
     /* auto-matching country flag on the National Days page */
     if (pageKey === "national-days" && ev.flag) {
