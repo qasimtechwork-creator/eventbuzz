@@ -88,7 +88,7 @@
   var THEMES = {
     halloween: {
       accent: "#f97316", accentSoft: "rgba(249,115,22,.38)", glow: "rgba(249,115,22,.16)",
-      image: "halloween-2026-date-history-significance.jpg",
+      image: "halloween-2026-date-history-significance.webp",
       alt: "Glowing carved Halloween pumpkins and candles in front of a haunted house",
       chip: { emoji: "🧩", text: "100 Spooky Trivia Questions", href: "articles/halloween-trivia-questions-2026.html" },
       featured: { title: "Halloween", tag: "👻 October 31 · Saturday", headline: "Halloween: Date, History & Significance",
@@ -100,13 +100,13 @@
           ["🎲", "Party Ideas & Games", "articles/halloween-party-ideas-games-2026.html"],
           ["🍬", "Recipes & Treat Ideas", "articles/halloween-recipes-treat-ideas-2026.html"]] },
       fx: "leaves", fxColors: ["#c2410c", "#b45309", "#92400e", "#a16207"],
-      catHero: { "default": "halloween-2026-images.jpg", festivals: "halloween-costume-ideas-2026.jpg",
-        holidays: "halloween-party-ideas-games-2026.jpg", seasonal: "halloween-decoration-ideas-2026.jpg",
-        shopping: "halloween-candy-guide-2026.jpg" }
+      catHero: { "default": "halloween-2026-images.webp", festivals: "halloween-costume-ideas-2026.webp",
+        holidays: "halloween-party-ideas-games-2026.webp", seasonal: "halloween-decoration-ideas-2026.webp",
+        shopping: "halloween-candy-guide-2026.webp" }
     },
     diwali: {
       accent: "#f5b942", accentSoft: "rgba(245,185,66,.40)", glow: "rgba(245,185,66,.18)",
-      image: "diwali-images-2026.jpg",
+      image: "diwali-images-2026.webp",
       alt: "Glowing diyas and festive Diwali lights",
       chip: { emoji: "🪔", text: "Diwali Dates & Lakshmi Puja Guide", href: "articles/diwali-2026-date-lakshmi-puja-calendar.html" },
       featured: { title: "Diwali", tag: "🪔 Festival of Lights", headline: "Diwali: Date, Lakshmi Puja & Calendar",
@@ -118,12 +118,12 @@
           ["🖼️", "Diwali Images", "articles/diwali-images-2026.html"],
           ["🪔", "Dhanteras Puja Guide", "articles/dhanteras-2026-date-puja-guide-wishes.html"]] },
       fx: "sparks", fxColors: ["#f5b942", "#f3d47a", "#e8a020"],
-      catHero: { "default": "diwali-decoration-ideas-at-home.jpg", festivals: "rangoli-designs-for-diwali-2026.jpg",
-        holidays: "happy-diwali-wishes-2026.jpg", shopping: "diwali-sweets-and-recipes.jpg" }
+      catHero: { "default": "diwali-decoration-ideas-at-home.webp", festivals: "rangoli-designs-for-diwali-2026.webp",
+        holidays: "happy-diwali-wishes-2026.webp", shopping: "diwali-sweets-and-recipes.webp" }
     },
     thanksgiving: {
       accent: "#d97706", accentSoft: "rgba(217,119,6,.38)", glow: "rgba(217,119,6,.16)",
-      image: "thanksgiving-dinner-ideas.jpg",
+      image: "thanksgiving-dinner-ideas.webp",
       alt: "Warm Thanksgiving dinner table with autumn dishes",
       chip: { emoji: "🦃", text: "Thanksgiving Wishes & Messages", href: "articles/thanksgiving-wishes-2026.html" },
       featured: { title: "Thanksgiving", tag: "🦃 Fourth Thursday of November", headline: "Thanksgiving: Wishes, Dinner Ideas & History",
@@ -135,12 +135,12 @@
           ["💬", "Quotes", "articles/thanksgiving-quotes-2026.html"],
           ["🍽️", "Dinner Ideas", "articles/thanksgiving-dinner-ideas.html"]] },
       fx: "leaves", fxColors: ["#b45309", "#92400e", "#a16207", "#78350f"],
-      catHero: { "default": "thanksgiving-messages-2026.jpg", holidays: "thanksgiving-dinner-ideas.jpg",
-        seasonal: "thanksgiving-quotes-2026.jpg" }
+      catHero: { "default": "thanksgiving-messages-2026.webp", holidays: "thanksgiving-dinner-ideas.webp",
+        seasonal: "thanksgiving-quotes-2026.webp" }
     },
     christmas: {
       accent: "#e63946", accentSoft: "rgba(230,57,70,.38)", glow: "rgba(230,57,70,.16)",
-      image: "christmas-decoration-ideas-2026.jpg",
+      image: "christmas-decoration-ideas-2026.webp",
       alt: "Beautiful Christmas decorations with glowing tree and ornaments",
       chip: { emoji: "🎄", text: "Christmas Decoration Ideas 2026", href: "articles/christmas-decoration-ideas-2026.html" },
       featured: { title: "Christmas", tag: "🎄 December 25 · Thursday", headline: "Christmas 2026: Dates, Traditions & Celebration Ideas",
@@ -152,13 +152,13 @@
           ["🍪", "Recipes & Food Ideas", "articles/christmas-recipes-and-food-ideas.html"],
           ["🎁", "Gift Ideas 2026", "articles/christmas-gift-ideas-2026.html"]] },
       fx: "snow", fxColors: ["#ffffff", "#f1f5f9", "#e2e8f0"],
-      catHero: { "default": "christmas-images-2026.jpg", holidays: "merry-christmas-wishes-2026.jpg",
-        shopping: "christmas-gift-ideas-2026.jpg", seasonal: "best-christmas-movies.jpg",
-        festivals: "christmas-party-ideas-2026.jpg" }
+      catHero: { "default": "christmas-images-2026.webp", holidays: "merry-christmas-wishes-2026.webp",
+        shopping: "christmas-gift-ideas-2026.webp", seasonal: "best-christmas-movies.webp",
+        festivals: "christmas-party-ideas-2026.webp" }
     },
     newyear: {
       accent: "#e8c766", accentSoft: "rgba(232,199,102,.40)", glow: "rgba(232,199,102,.18)",
-      image: "new-year-images-2027.jpg",
+      image: "new-year-images-2027.webp",
       alt: "Sparkling New Year celebration with fireworks and lights",
       chip: { emoji: "🥂", text: "New Year Wishes & Messages 2027", href: "articles/new-year-wishes-for-friends-and-family.html" },
       featured: { title: "New Year", tag: "🥂 January 1 · New beginnings", headline: "New Year 2027: Wishes, Quotes & Party Ideas",
@@ -170,12 +170,12 @@
           ["🎉", "Party Ideas", "articles/new-year-party-ideas-2027.html"],
           ["🎯", "Resolutions", "articles/new-year-resolutions-ideas.html"]] },
       fx: "sparks", fxColors: ["#e8c766", "#f3d47a", "#fff7d6"],
-      catHero: { "default": "new-year-party-ideas-2027.jpg", holidays: "happy-new-year-2027-wishes.jpg",
-        seasonal: "new-year-quotes-2027.jpg" }
+      catHero: { "default": "new-year-party-ideas-2027.webp", holidays: "happy-new-year-2027-wishes.webp",
+        seasonal: "new-year-quotes-2027.webp" }
     },
     valentine: {
       accent: "#e6397a", accentSoft: "rgba(230,57,122,.38)", glow: "rgba(230,57,122,.16)",
-      image: "romantic-valentines-day-wishes.jpg",
+      image: "romantic-valentines-day-wishes.webp",
       alt: "Romantic Valentine's Day roses and soft lights",
       chip: { emoji: "💝", text: "Romantic Valentine's Wishes", href: "articles/romantic-valentines-day-wishes.html" },
       featured: { title: "Valentine's Day", tag: "💝 February 14", headline: "Valentine's Day: Wishes, Quotes & Date Ideas",
@@ -187,12 +187,12 @@
           ["🎁", "Gift Ideas", "articles/valentines-day-gift-ideas.html"],
           ["🌹", "Date Ideas", "articles/valentines-day-date-ideas.html"]] },
       fx: "petals", fxColors: ["#f9a8d4", "#f472b6", "#fbcfe8", "#e6397a"],
-      catHero: { "default": "valentines-day-gift-ideas.jpg", holidays: "valentines-day-2027-date-wishes.jpg",
-        shopping: "valentines-day-gift-ideas.jpg" }
+      catHero: { "default": "valentines-day-gift-ideas.webp", holidays: "valentines-day-2027-date-wishes.webp",
+        shopping: "valentines-day-gift-ideas.webp" }
     },
     eidFitr: {
       accent: "#10b981", accentSoft: "rgba(16,185,129,.38)", glow: "rgba(16,185,129,.16)",
-      image: "eid-mubarak-images-2027.jpg",
+      image: "eid-mubarak-images-2027.webp",
       alt: "Eid Mubarak greeting with crescent moon and lanterns",
       chip: { emoji: "🌙", text: "Eid Mubarak Wishes 2027", href: "articles/eid-mubarak-wishes-2027.html" },
       featured: { title: "Eid al-Fitr", tag: "🌙 End of Ramadan", headline: "Eid al-Fitr: Dates, Wishes & Celebration Guide",
@@ -204,8 +204,8 @@
           ["🖼️", "Eid Mubarak Images", "articles/eid-mubarak-images-2027.html"],
           ["🤲", "Ramadan Duas", "articles/ramadan-duas-sehri-iftar.html"]] },
       fx: "sparks", fxColors: ["#f5b942", "#10b981", "#f3d47a"],
-      catHero: { "default": "eid-mubarak-wishes-2027.jpg", holidays: "eid-recipes-and-sweets.jpg",
-        festivals: "eid-mehndi-designs-2027.jpg" }
+      catHero: { "default": "eid-mubarak-wishes-2027.webp", holidays: "eid-recipes-and-sweets.webp",
+        festivals: "eid-mehndi-designs-2027.webp" }
     },
     holi: {
       accent: "#ec4899", accentSoft: "rgba(236,72,153,.38)", glow: "rgba(236,72,153,.16)",
@@ -225,7 +225,7 @@
     },
     pakistanDay: {
       accent: "#0a9b4d", accentSoft: "rgba(10,155,77,.40)", glow: "rgba(10,155,77,.18)",
-      image: "pakistan-day-23-march.jpg",
+      image: "pakistan-day-23-march.webp",
       alt: "Pakistan Day celebration with national flag colors",
       chip: { emoji: "🇵🇰", text: "Pakistan Day Wishes & Messages", href: "articles/pakistan-day-wishes-and-messages.html" },
       featured: { title: "Pakistan Day", tag: "🇵🇰 23 March · Lahore Resolution", headline: "Pakistan Day — 23 March: History, Wishes & Messages",
@@ -237,8 +237,8 @@
           ["🎤", "Speech in English", "articles/pakistan-day-speech-in-english.html"],
           ["📅", "23 March Guide", "articles/pakistan-day-23-march.html"]] },
       fx: "sparks", fxColors: ["#0a9b4d", "#ffffff", "#f5b942"],
-      catHero: { "default": "pakistan-day-wishes-and-messages.jpg", "national-days": "pakistan-day-23-march.jpg",
-        holidays: "pakistan-day-wishes-and-messages.jpg" }
+      catHero: { "default": "pakistan-day-wishes-and-messages.webp", "national-days": "pakistan-day-23-march.webp",
+        holidays: "pakistan-day-wishes-and-messages.webp" }
     },
     easter: {
       accent: "#7fb6d9", accentSoft: "rgba(127,182,217,.40)", glow: "rgba(127,182,217,.18)",
@@ -258,7 +258,7 @@
     },
     eidAdha: {
       accent: "#10b981", accentSoft: "rgba(16,185,129,.38)", glow: "rgba(16,185,129,.16)",
-      image: "eid-mubarak-wishes-2027.jpg",
+      image: "eid-mubarak-wishes-2027.webp",
       alt: "Eid greeting with crescent and warm lights",
       chip: { emoji: "🌙", text: "Eid Mubarak Wishes", href: "articles/eid-mubarak-wishes-2027.html" },
       featured: { title: "Eid al-Adha", tag: "🌙 Festival of Sacrifice", headline: "Eid al-Adha: Dates, Wishes & Celebration Guide",
@@ -270,7 +270,7 @@
           ["🤲", "Ramadan & Eid Duas", "articles/ramadan-duas-sehri-iftar.html"],
           ["🎪", "All Festivals", "categories/festivals.html"]] },
       fx: "sparks", fxColors: ["#f5b942", "#10b981", "#f3d47a"],
-      catHero: { "default": "eid-mubarak-images-2027.jpg" }
+      catHero: { "default": "eid-mubarak-images-2027.webp" }
     },
     independenceDay: {
       accent: "#0a9b4d", accentSoft: "rgba(10,155,77,.40)", glow: "rgba(10,155,77,.18)",
