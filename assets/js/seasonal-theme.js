@@ -384,7 +384,8 @@
   var path = location.pathname.toLowerCase();
   var pageKey = "index";
   if (path.indexOf("/categories/") > -1) {
-    var m = path.match(/\/categories\/([a-z-]+)\.html/);
+    /* Vercel cleanUrls serves extensionless paths (/categories/festivals), so .html is optional */
+    var m = path.match(/\/categories\/([a-z-]+?)(?:\.html)?\/?$/);
     if (m) pageKey = m[1] === "shopping-events" ? "shopping" : (m[1] === "seasonal-events" ? "seasonal" : (m[1] === "national-days" ? "national-days" : m[1]));
   }
   if (!pick) { root.setAttribute("data-theme", "default"); return; }
