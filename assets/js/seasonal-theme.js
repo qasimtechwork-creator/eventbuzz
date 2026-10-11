@@ -18,11 +18,17 @@
 (function () {
   "use strict";
 
-  /* ---------- paths (works from any page depth) ---------- */
+  /* ---------- paths (works from any page depth) ----------
+     Images live in assets/images/ (sibling of assets/js/), so strip the
+     trailing "js/" from the script directory — otherwise every themed image
+     404s and the injected banners collapse to zero height. */
   var scriptEl = document.currentScript;
   var ASSET = "assets/";
   if (scriptEl && scriptEl.src) ASSET = scriptEl.src.replace(/[^\/]+$/, "");
-  var IMG = ASSET + "images/";
+  var IMG = ASSET.replace(/js\/$/, "") + "images/";
+  if (!scriptEl || !scriptEl.src) {
+    IMG = (location.pathname.indexOf("/categories/") > -1 ? "../assets/images/" : "assets/images/");
+  }
 
   function esc(s) {
     return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
@@ -430,6 +436,7 @@
     if (hcb) hcb.textContent = ev.label + " in";
     document.querySelectorAll(".hero-count-badge [data-countdown], .featured-body [data-countdown]").forEach(function (cd) {
       cd.setAttribute("data-countdown", isoLocal(d));
+      cd.setAttribute("aria-label", "Countdown to " + ev.label + " " + d.getFullYear());
     });
     var chip = document.querySelector(".hero-chip");
     if (chip) {
