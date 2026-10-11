@@ -1,5 +1,4 @@
 # EventBuzz robots.txt
-# PLACEHOLDER BASE: replace eventbuzz-sigma.vercel.app with the final domain before launch.
 User-agent: *
 Allow: /
 
