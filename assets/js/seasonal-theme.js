@@ -280,7 +280,7 @@
     },
     independenceDay: {
       accent: "#0a9b4d", accentSoft: "rgba(10,155,77,.40)", glow: "rgba(10,155,77,.18)",
-      image: null, // no photo yet — professional CSS flag art renders instead (until Qasim designs the image)
+      image: "14-august-independence-day.webp",
       flagArt: "PK", artTitle: "14 AUGUST",
       alt: "Pakistan Independence Day — 14 August",
       chip: { emoji: "🇵🇰", text: "National Days", href: "categories/national-days.html" },
