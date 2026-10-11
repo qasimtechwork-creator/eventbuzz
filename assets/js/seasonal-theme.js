@@ -215,7 +215,7 @@
     },
     holi: {
       accent: "#ec4899", accentSoft: "rgba(236,72,153,.38)", glow: "rgba(236,72,153,.16)",
-      image: null, // no suitable existing image — colors + decoration still apply
+      image: "holi-festival-of-colors.webp",
       alt: "",
       chip: { emoji: "🎨", text: "Festival Guides", href: "categories/festivals.html" },
       featured: { title: "Holi", tag: "🎨 Festival of Colors", headline: "Holi: the Festival of Colors",
@@ -248,7 +248,7 @@
     },
     easter: {
       accent: "#7fb6d9", accentSoft: "rgba(127,182,217,.40)", glow: "rgba(127,182,217,.18)",
-      image: null, // no suitable existing image — colors + decoration still apply
+      image: "easter-wishes-celebration.webp",
       alt: "",
       chip: { emoji: "🐣", text: "Festival Guides", href: "categories/festivals.html" },
       featured: { title: "Easter", tag: "🐣 Spring celebration", headline: "Easter: Spring Celebration Guides",
