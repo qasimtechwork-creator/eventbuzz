@@ -431,3 +431,10 @@ html[data-theme] .page-hero{border-top:2px solid var(--theme-accent-soft);border
 .card-media{overflow:hidden}
 .card-media img{animation:kenburns 22s ease-in-out infinite}
 .card:hover .card-media img{animation-play-state:paused;transform:scale(1.08)}
+
+/* ===== About hero professional title ===== */
+.about-hero{text-align:center;padding:60px 0 30px}
+.about-title-label{display:inline-flex;align-items:center;gap:10px;margin-bottom:20px;padding:10px 24px;background:rgba(255,184,0,.08);border:1px solid rgba(255,184,0,.25);border-radius:50px;font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#ffb800}
+.about-title-badge{display:grid;place-items:center;width:26px;height:26px;border-radius:50%;background:linear-gradient(135deg,#ff5a5a,#ffb800);color:#fff;font-size:14px}
+.about-hero h1{font-size:clamp(36px,6vw,56px);background:linear-gradient(135deg,#fff,#ffb800);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;margin:0 0 18px}
+.about-hero p{color:#d4d0c8;font-size:1.1rem;max-width:680px;margin:0 auto;line-height:1.7}
