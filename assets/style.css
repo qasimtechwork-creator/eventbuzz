@@ -438,3 +438,19 @@ html[data-theme] .page-hero{border-top:2px solid var(--theme-accent-soft);border
 .about-title-badge{display:grid;place-items:center;width:26px;height:26px;border-radius:50%;background:linear-gradient(135deg,#ff5a5a,#ffb800);color:#fff;font-size:14px}
 .about-hero h1{font-size:clamp(36px,6vw,56px);background:linear-gradient(135deg,#fff,#ffb800);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;margin:0 0 18px}
 .about-hero p{color:#d4d0c8;font-size:1.1rem;max-width:680px;margin:0 auto;line-height:1.7}
+
+/* ===== Mobile shop cards responsive fix ===== */
+@media(max-width:640px){
+  .shop-grid{grid-template-columns:repeat(2,1fr);gap:10px}
+  .shop-card img{height:120px}
+  .shop-card .sc-title{font-size:12.5px}
+  .shop-card .sc-price{font-size:13.5px}
+  .shop-card .sc-btn{font-size:12px;padding:7px 8px}
+}
+@media(max-width:380px){
+  .shop-grid{grid-template-columns:1fr;gap:12px}
+  .shop-card img{height:180px}
+}
+.shop-card img{aspect-ratio:1/1;object-fit:cover}
+.shop-card{transition:transform .35s cubic-bezier(.2,.7,.2,1),box-shadow .35s}
+.shop-card:hover{transform:translateY(-5px);box-shadow:0 16px 32px -10px rgba(0,0,0,.25)}
