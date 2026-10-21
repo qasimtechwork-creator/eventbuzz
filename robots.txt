@@ -2,4 +2,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://eventbuzz-sigma.vercel.app/sitemap.xml
+Sitemap: https://eventbuzz-beta.vercel.app/sitemap.xml
